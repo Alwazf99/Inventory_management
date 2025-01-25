@@ -1,8 +1,20 @@
-# React + Vite
+#Dynamic Inventory Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React.js application for managing inventory with features like adding, editing, deleting items, filtering by category, sorting by quantity, and highlighting low-stock items.
 
-Currently, two official plugins are available:
+##Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Add New Items: Add items to the inventory with details like name, category, and quantity.
+
+Edit Existing Items: Modify details of existing inventory items.
+
+Delete Items: Remove items from the inventory.
+
+Filter by Category: Display only the items of a specific category.
+
+Sort by Quantity: Sort items in ascending or descending order based on their quantity.
+
+Low Stock Highlighting: Highlight items with a quantity below 10 to prioritize replenishment.
+
+
+![Screenshot (385)](https://github.com/user-attachments/assets/0efe2887-804e-4d06-a330-07dfb6d32e84)
